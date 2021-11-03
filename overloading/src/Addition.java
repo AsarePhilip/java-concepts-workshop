@@ -6,5 +6,16 @@
 
 public class Addition {
 
+    public void add(int a, int b){
+        System.out.printf("Sum of a and b is %d\n", a+b);
+    }
+    
+    public void add(int a, int b, int c){
+        System.out.printf("Sum of a and b is %d\n", a+b+c);
+    }
+
+    public void add(int a, int b, float c){
+        System.out.printf("Sum of a and b is %f\n", a+b+c);
+    }
 }
 
